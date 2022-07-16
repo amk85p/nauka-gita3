@@ -1,0 +1,161 @@
+/* Global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Source Sans Pro, sans-serif;
+  color: #3d3d3d;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+  /*background: #fff;*/
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+section {
+  padding: 108px 0;
+}
+
+/* Splash */
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url(https://i.postimg.cc/CKmXZH3B/pexels-pixabay-434337.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.splash i {
+  font-size: 30px;
+  background: #6a89cc;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.page-title::after {
+  position: absolute;
+  content: "";
+  bottom: 50px;
+  left: 50%;
+  width: 100px;
+  height: 10px;
+  transform: translateX(-50%);
+  background: #6a89cc;
+}
+
+.page-title {
+  font-family: Cormorant Garamond, sans-serif;
+  font-size: 50px;
+}
+
+.page-subtitle {
+  margin: 48px 0 0 0;
+  font-size: 25px;
+  color: #000;
+  font-family: Cormorant Garamond, sans-serif;
+}
+
+/* Intro */
+.intro {
+  background: #fff;
+}
+
+.intro p {
+  width: 70%;
+  margin: 0 auto;
+  padding: 48px 0;
+  font-size: 20px;
+  border-top: solid 2px #4a69bd;
+  border-bottom: solid 2px #4a69bd;
+}
+
+/* Global */
+.section-title {
+  position: relative;
+  font-size: 36px;
+  margin: 0 0 60px 0;
+  font-family: Cormorant Garamond, sans-serif;
+}
+
+.section-title::after {
+  position: absolute;
+  content: "";
+  bottom: -20px;
+  left: 50%;
+  width: 50px;
+  height: 10px;
+  transform: translateX(-50%);
+  background: #6a89cc;
+}
+
+.about {
+  background: #f0f0f0;
+}
+
+/* Skills */
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills ul li {
+  position: relative;
+}
+
+.skill-image {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.skill-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.skill.right .skill-image {
+  right: 0;
+}
+
+.skill.right .skill-description {
+  padding: 36px 55% 36px 0;
+  text-align: right;
+}
+
+.skill.left .skill-description {
+  text-align: left;
+  padding: 36px 0 36px 55%;
+}
+
+/*FOOTER    */
+.page-footer {
+  padding: 50px;
+  background-color: #242424;
+  color: #dddada;
+  height: 150px;
+}/*# sourceMappingURL=style.css.map */
